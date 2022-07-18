@@ -1,4 +1,4 @@
-==================================================================================
+
 BDD Cucumber Selenium Webdriver Appium Rest-Assured Java Test Automation Framework
 ==================================================================================
 This project is a template test automation framework, which provides structured and standard way of 
