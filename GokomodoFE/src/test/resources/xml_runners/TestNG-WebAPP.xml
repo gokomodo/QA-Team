@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GokomodoFEAutomation" thread-count="4" parallel="classes">
+    <listeners>
+        <listener class-name="com.buildListeners.TestNGAnnotationTransformer"/>
+    </listeners>
+    <test name="Automated tests for WEB client" group-by-instances="false" preserve-order="false" enabled="true">
+        <classes>
+<!--            <class name="tests.WebAPP.SampleImplement.CustomerService_Tests"/>-->
+<!--            <class name="tests.WebAPP.SampleImplement.Authentication_Tests"/>-->
+<!--            <class name="tests.WebAPP.SampleImplement.Registration_Tests"/>-->
+            <class name="tests.WebAPP.Login_Test"/>
+<!--            <class name="tests.WebAPP.SampleImplement.RegistrationValidators_Tests"/>-->
+<!--            <class name="tests.WebAPP.SampleImplement.SearchBox_Tests"/>-->
+<!--            <class name="tests.WebAPP.SampleImplement.SocialMedia_Tests"/>-->
+<!--            <class name="tests.WebAPP.SampleImplement.ShoppingLoggedUser_Tests"/>-->
+        </classes>
+    </test>
+</suite>
